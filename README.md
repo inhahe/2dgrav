@@ -1,5 +1,10 @@
-Simulates gravity in a 2d environment. Includes versions written in both C++ and QuickBasic. They have unique features that can create artistic-looking graphics, such as the ability to draw lines connecting every possible pair of objects, with or without erasing behind themselves as they move.
+Simulates gravitational interactions among circles in space. Includes versions written in C++, QuickBasic, and Python. Some of them have unique features that can create artistic-looking graphics, such as the ability to draw lines connecting every possible pair of objects, with or without erasing behind themselves as they change position. These things are controlled through hot-keys.
 
 I think I never figured out how to get one of the features in the C++ version working or why it wouldn't work.
 
-I also wrote a gravity simulator for Python, which could simulate gravity in any given number of dimensions and separated simulation from display so that you could display the X number of dimensions in any way you want, and I did some really interesting graphical things with that. I seem to have lost that program. =/ I also wrote one in Python that simulates gravitic attraction in 3d, shades the objects as spheres, and can actually display the field in 3d with the use of red and green 3d glasses. I think I lost that one too. =/
+The QB and C++ versions are 2D. The Python version can handle any arbitrary number of dimensions (provided you code a way to display it, which is decoupled from the gravitational calculations), but is currently set to calculate in 3 dimensions and display in 2.
+
+I did some really interesting graphical things using the Python version, such as separating the screen into tiles that could be either colored or not colored depending on whether an object was within a tile's area at the time. I lost that version. =P
+
+I also wrote one in Python, or a version of the Python one included, that shades the objects as spheres, and can actually display objects' depths in 3D interactions with the use of red and green 3D glasses. I seem to have lost that one too. =/ I think there may be the code to display for 3D glasses, but not as spheres, commented out in 3dgrav.py.
+
