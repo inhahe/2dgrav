@@ -2,7 +2,7 @@ Simulates gravitational interactions among circles in space. Includes versions w
 
 I think I never figured out how to get one of the features in the C++ version working or why it wouldn't work.
 
-The QB and C++ versions are 2D. The Python version can handle any arbitrary number of dimensions (provided you code a way to display it, which is decoupled from the gravitational calculations), but is currently set to calculate in 3 dimensions and display in 2.
+The QB and C++ versions are 2D. The Python version can handle any arbitrary number of dimensions (provided you code a way to display it, I've decoupled that from the gravitational calculations), but is currently set to calculate in 3 dimensions and display in 2.
 
 There are multiple versions of the program included for the QB version, because I don't know which one is supposed to be the latest or best or which ones are experimental or what (I coded the QB versions probably back in the 90's..).
 
