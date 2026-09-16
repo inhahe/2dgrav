@@ -690,7 +690,7 @@ PRINT USING "Time: ##:##:##:##"; hours; mins; secs; secfrac
 'PRINT "Positions/sec:"; INT(positions / Time * 10) / 10
 GOSUB saveparameters
 SCREEN 0
-      vain$ = "Richard A. Nichols III"
+      vain$ = "Inhahe"
       LOCATE CSRLIN, 1
       l = TIMER
       FOR s = 1 TO LEN(vain$)
